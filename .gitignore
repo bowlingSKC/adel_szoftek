@@ -4,3 +4,5 @@
 /adel_szoftek/dist/
 /adel_szoftek/nbdist/
 /adel_szoftek/.nb-gradle/
+.idea/
+adel_szoftek/adel_szoftek.iml
