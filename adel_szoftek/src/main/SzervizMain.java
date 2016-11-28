@@ -14,7 +14,7 @@ public class SzervizMain {
 
     private Felhasznalo bejelentkezett;     // bejelentkezett felhasználó vagy null
 
-    // kezelők
+    // kezelok
     private final MunkalapKezelo munkalapKezelo;
     private final FelhasznaloKezelo felhasznaloKezelo;
 
