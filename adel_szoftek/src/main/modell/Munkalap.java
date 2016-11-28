@@ -23,7 +23,8 @@ public class Munkalap {
     private String hibaleiras;
     private MunkalapAllapot allapot = MunkalapAllapot.UJ;
     private int ido;                    // megkezdett órák száma
-    private List<Tetel> tetelek = new ArrayList<Tetel>();
+    private List<Tetel> tetelek = new ArrayList<>();
+    private Auto auto;
 
     public int getAzonosito() {
         return azonosito;
@@ -63,5 +64,13 @@ public class Munkalap {
 
     public void setTetelek(List<Tetel> tetelek) {
         this.tetelek = tetelek;
+    }
+
+    public Auto getAuto() {
+        return auto;
+    }
+
+    public void setAuto(Auto auto) {
+        this.auto = auto;
     }
 }
